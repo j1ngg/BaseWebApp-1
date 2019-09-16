@@ -4,6 +4,7 @@ body {
   text-align: center;
   color: #343a40;
   font-size: 22px;
+  padding-bottom: 60px;
 }
 
 h1 {
@@ -31,4 +32,5 @@ button {
 #image img {
   height: 200px;
   margin-top: 60px;
+  padding-bottom: 60px;
 }

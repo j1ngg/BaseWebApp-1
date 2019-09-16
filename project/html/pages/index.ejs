@@ -12,12 +12,35 @@
     <h1>Hello World</h1>
   </div>
 
-  <p>Click on the button for a surprise.</p>
+  <p><strong>Practicing auth (console log email)</strong></p>
+  <button onClick="handleSignIn()" class="btn btn-dark">Login</button>
+  <hr size="6" width="50%" align="center" color="#00bda5">
 
-  <button onClick="showPicture()" class="btn btn-dark">Click me</button>
+  <p><strong>Fiddling with post submission with Firebase</strong></p>
+  <form onSubmit="handleMessageFormSubmit()" action="#">
+    Make up a username:<br>
+    <input id="post-title"><br>
+    What should I build next?<br>
+    <textarea id="post-body"></textarea><br>
+    <button class="btn btn-dark">Submit</button>
+  </form>
+
+  <div id="post-listing"></div>
+
+  <hr size="6" width="50%" align="center" color="#00bda5">
+
+  
+  <p><strong>Want a meme?</strong></p>
+  
+  <div>
+    <button id="jsstyle" 
+    onclick="display_random_image();">Gimme a meme (random)</button> 
+    </div>
 
   <div id="image"></div>
   
+  <br>
+
 </body>
 
 </html>
